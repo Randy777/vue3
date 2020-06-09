@@ -50,9 +50,9 @@ export default {
           this.visible = !this.visible;
           // alert('Hello,world')
       },
-        func(){
-            this.$router.push('/first');
-        }
+      func(){
+          this.$router.push('/first');
+      }
     }
 }
 </script>

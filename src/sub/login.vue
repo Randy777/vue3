@@ -1,16 +1,18 @@
 <template>
   <div>
-    <h2>Essential Links</h2>
-    <h2>Ecosystem</h2>
+    <h3>这是first的登录子组件</h3>
   </div>
 </template>
 
 <script>
     export default {
-        name: "First"
+        name: "login"
     }
 </script>
 
 <style scoped>
+  div{
+    color: red;
+  }
 
 </style>

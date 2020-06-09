@@ -1,7 +1,6 @@
 import Vue from 'vue' //导入App组件
 import Router from 'vue-router' //导入vue-router包
 import HelloWorld from '@/components/HelloWorld'
-
 import First from '@/first/first'
 import Second from '@/first/second'
 

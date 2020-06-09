@@ -1,13 +1,25 @@
 <template>
-  <div>
-    <h2>Essential Links</h2>
-    <h2>Ecosystem</h2>
+  <div id="app">
+    <h1>这是First组件</h1>
+    <router-link to="/first/login">login</router-link>
+    <router-link to="/first/register">register</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
     export default {
-        name: "First"
+        name: "First",
+        data() {
+          return{
+              ttt : '返回首页'
+          }
+        },
+        methods: {
+            func() {
+                this.$router.push('/');
+            }
+        }
     }
 </script>
 

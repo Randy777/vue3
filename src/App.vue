@@ -1,6 +1,9 @@
 <template>
   <div id="app">
+<!--    <h1>这是App组件</h1>-->
     <img src="./assets/logo.png">
+    <router-link to="/first">first</router-link>
+    <router-link to="/second">second</router-link>
     <router-view/>
   </div>
 </template>
